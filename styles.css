@@ -43,3 +43,43 @@ h2{
   font-size: 3rem;
   font-style: italic;
 }
+
+.button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+.button button{
+  width: 10rem;
+  height: 2rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: red;
+}
+
+
+@media (max-width:769px){
+  .container{
+    width: 80%;
+  }
+  .dice{
+    width: 50%;
+  }
+  h1{
+    font-size: 2rem;
+    margin: 15px;
+  }
+  p{
+    font-size: 1.5rem;
+  }
+  img{
+    width: 72%;
+  }
+  .button{
+    margin-top: 3rem;
+  }
+  .button button{
+    width: 6rem;
+  }
+}
